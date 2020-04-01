@@ -39,11 +39,6 @@ const config = {
     }
 
     return userRef;
-
-    console.log(snapShot);
-
-    console.log(firestore.doc('users/125125f'));
-
   }
 
   firebase.initializeApp(config);
